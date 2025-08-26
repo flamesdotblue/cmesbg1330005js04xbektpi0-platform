@@ -34,7 +34,7 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero hero--light">
       <div className="container hero__grid">
         <div className="hero__content">
           <div className="badge">New • AI steps & observability</div>
@@ -51,7 +51,7 @@ function Hero() {
           </ul>
         </div>
         <div className="hero__canvas" aria-hidden>
-          <div className="canvas__glass">
+          <div className="canvas__glass canvas__glass--light">
             <Spline scene="https://prod.spline.design/HJQS1eRlWNZg9AAH/scene.splinecode" />
           </div>
         </div>
